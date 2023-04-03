@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        th{
+            vertical-align: top;
+        }
+        table {
+            background-color: ghostwhite;width:100%;
+        }
+        h1{
+            background-color: crimson;text-align:center;
+        }
+        td{
+            color: crimson;
+        }
+    </style>
+</head>
+<body bgcolor="aqua">
+<form action="google.com" method="post">
+  <table>
+      <th colspan="2" style="color: azure"><h1>Sở thích của bạn</h1></th>
+      <tr>
+      <th>Họ và tên</th><td><input type="text" name="yourname" size="30"></td>
+  </tr>
+      <tr> <th>Email</th> <td><input type="text" name="email"></td></tr>
+  </table>
+    <table>
+    <tr></tr><th rowspan="4">Sở thích</th><td><input type="checkbox" name="hobby">thể thao</td>
+        <td><input type="checkbox" name="hobby">âm nhạc</td>
+        <td><input type="checkbox" name="hobby">đọc sách</td></tr>
+        <tr><td><input type="checkbox" name="hobby">lướt web</td>
+        <td><input type="checkbox" name="hobby">chơi game</td>
+        <td><input type="checkbox" name="hobby">điện ảnh</td></tr>
+        <tr><td><input type="checkbox" name="hobby">du lịch</td></tr>
+        <tr><td><input type="submit" value="gửi thông tin"></td><td><input type="reset" value="nhập lại"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
